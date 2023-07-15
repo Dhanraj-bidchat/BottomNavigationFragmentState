@@ -20,12 +20,12 @@ class HomeViewModel : ViewModel() {
         /**
          * first add category , brands and browse menu handler
          */
-//        val categories = Subject(1000,"Popular Categories", arrayListOf(), 1)
-//        val brands = Subject(1001,"Top Brands", arrayListOf(), 1)
-//        val menu = Subject(1002,"Browse Menu", arrayListOf(), 1)
-//        subjects.add(categories)
-//        subjects.add(brands)
-//        subjects.add(menu)
+        val categories = Subject(1000,"Popular Categories", arrayListOf(), 1)
+        val brands = Subject(1001,"Top Brands", arrayListOf(), 1)
+        val menu = Subject(1002,"Browse Menu", arrayListOf(), 1)
+        subjects.add(categories)
+        subjects.add(brands)
+        subjects.add(menu)
 
         //////S START
         val chapter1 = Chapter(1, "Atomic power", "https://media.istockphoto.com/id/915681526/photo/bandra-worli-sea-link-mumbai.jpg?s=1024x1024&w=is&k=20&c=L5ZbPXc0iBCgz7zL6nP-Det8lXCLXeUxxBW8TBNPLVQ=")
